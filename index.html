@@ -78,7 +78,7 @@
 								<section>
 									<header>
 										<h3>Credit Risk Scorecard</h3>
-										<p>A Basel II compliant probability-of-default model built on 2 million real LendingClub loan records. Uses Weight of Evidence, Information Value feature selection, and logistic regression, validated with Gini, KS statistic, and AUC. Reduces projected portfolio default loss by 18%.</p>
+										<p>LendingClub 1.3M loans • XGBoost • WOE/EV faeture engineering • AUC 0.712 • $275M loss eduction at 35% PD threshold.</p>
 									</header>
 									<div class="content">
 										<p><strong>Stack:</strong> Python &middot; scikit-learn &middot; Plotly &middot; Jupyter Notebook</p>
@@ -92,7 +92,7 @@
 								<section>
 									<header>
 										<h3>Portfolio Risk Dashboard</h3>
-										<p>An interactive live tool that calculates VaR, CVaR, Sharpe ratio, Sortino ratio, and maximum drawdown for any equity portfolio. Paste any stock tickers and get instant risk metrics used by institutional portfolio managers, deployed as a public Streamlit app.</p>
+										<p>Live Streamlit app •  VaR/CVaR, Sharpe, Sortino • Monte Carlo 10k paths • Calmar • Max drawdown • real-time yfinane data • Portfolio formulation .</p>
 									</header>
 									<div class="content">
 										<p><strong>Stack:</strong> Python &middot; Streamlit &middot; yfinance &middot; Monte Carlo simulation &middot; Plotly</p>
@@ -107,7 +107,7 @@
 								<section>
 									<header>
 										<h3>Financial Fraud Detection</h3>
-										<p>An XGBoost model trained on 284,000 real credit card transactions (0.17% fraud rate). The core challenge, and the real skill is handling severe class imbalance using SMOTE and cost-sensitive learning. Achieves 91% recall while keeping false positives under 5%. SHAP plots explain every prediction.</p>
+										<p>ULB credit card dataset • 578:1 imbalance • SMOTE • XGBoost • XGBoost AUC-PR 0.80 • 479x over random baseline • SHAP explainability.</p>
 									</header>
 									<div class="content">
 										<p><strong>Stack:</strong> Python &middot; XGBoost &middot; SMOTE &middot; SHAP &middot; scikit-learn</p>
@@ -120,20 +120,49 @@
 							<!-- Project 4 -->
 								<section>
 									<header>
-										<h3>Macroeconomic Intelligence Dashboard</h3>
-										<p>A live macro surveillance dashboard pulling from the FRED API and World Bank API, tracking GDP, CPI inflation, unemployment, interest rates, and yield curves across 10 countries including Ghana and major emerging markets. Published on Tableau Public.</p>
+										<h3>Macroeconomic Dashboard</h3>
+										<p>Live Streamlit app • FRED API • World Bank • 18 USA indicators • 10 countries • Ghana and African emerging markets • Yield curve • VIX.</p>
 									</header>
 									<div class="content">
 										<p><strong>Stack:</strong> Python &middot; FRED API &middot; World Bank API &middot; Tableau Public &middot; pandas</p>
 										<ul class="actions">
 											<li><a href="https://github.com/Kofi-An/macro-dashboard" class="button primary">View on GitHub</a></li>
-											<li><a href="#" class="button">Live Dashboard</a></li>
+											<li><a href="https://macro-dashboard-vrv4nb2apxku83.streamlit.app" class="button">Live Dashboard</a></li>
+										</ul>
+									</div>
+								</section>
+
+							<!-- Project 5 -->
+								<section>
+									<header>
+										<h3>Fama-French 5 Factor Model</h3>
+										<p>AAPL • BRK-B • TSLA • JNJ • SPY • 2010-2024 • Rolling OLS • TSLA alpha 116% peak • all porfolios beat SPY Sharpe • factor attrbution.</p>
+									</header>
+									<div class="content">
+										<p><strong>Stack:</strong> Python &middot; yfinance &middot; HAC &middot; 5-Factor data &middot; pandas</p>
+										<ul class="actions">
+											<li><a href="https://github.com/Kofi-An/fama-french-model" class="button primary">View on GitHub</a></li>
+										</ul>
+									</div>
+								</section>
+								
+							<!-- Project 6 -->
+								<section>
+									<header>
+										<h3>Earnings NLP Analyser</h3>
+										<p>FinBERT • VADER • SEC EDGAR • 5 companies • VADER vs FinBERT r=0.031 • event study • MSFT sentiment-return p=0.004 • trading signal backtest.</p>
+									</header>
+									<div class="content">
+										<p><strong>Stack:</strong> Python &middot; HTML cleaning &middot; Synthetic Transcripts &middot; Production ready NLP pipeline &middot; ProsusAI</p>
+										<ul class="actions">
+											<li><a href="https://github.com/Kofi-An/earnings-nlp" class="button primary">View on GitHub</a></li>
 										</ul>
 									</div>
 								</section>
 
 						</div>
 					</section>
+											
 
 				<!-- Section: CTA -->
 					<section>
@@ -144,7 +173,7 @@
 							<p><strong>I am actively seeking remote roles</strong> in quantitative risk analysis, financial data science, and BI analytics. If your team works on credit risk, portfolio analytics, fraud detection, or financial reporting, I would love to connect.</p>
 							<ul class="actions">
 								<li><a href="https://github.com/Kofi-An" class="button primary large">View GitHub</a></li>
-								<li><a href="https://linkedin.com/in/wka7" class="button large">Connect on LinkedIn</a></li>
+								<li><a href="https://linkedin.com/in/kfam88" class="button large">Connect on LinkedIn</a></li>
 							</ul>
 						</div>
 					</section>
@@ -188,7 +217,7 @@
 									<ul class="icons">
 										<li><a href="https://linkedin.com/in/wka7" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 										<li><a href="https://github.com/Kofi-An" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="https://kaggle.com/your-kaggle-handle" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+										<li><a href="https://kaggle.com/worlanyoanku" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
 									</ul>
 								</li>
 							</ul>
